@@ -1,0 +1,14 @@
+[Unit]
+Description=offvariance telegram bot service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/table/pythonProject3
+ExecStart=/usr/bin/python3 /table/pythonProject3/bot.py
+
+[Install]
+WantedBy=multi-user.target

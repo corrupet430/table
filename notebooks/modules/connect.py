@@ -1,3 +1,4 @@
+#Скрипт который при запуске постоянно посылает запрос и скачивает обновление файла с сервера
 import pysftp
 from loguru import logger
 import time
