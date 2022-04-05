@@ -7,8 +7,8 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-WorkingDirectory=/table/pythonProject3
-ExecStart=/usr/bin/python3 /table/pythonProject3/bot.py
+WorkingDirectory=/var/table
+ExecStart=/usr/bin/python3 /var/table/bot.py
 
 [Install]
 WantedBy=multi-user.target
