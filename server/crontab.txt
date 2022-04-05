@@ -1,1 +1,1 @@
-* * * * * cd /table/pythonProject3 && /usr/bin/python3 find-games.py
+* * * * * cd /var/table && /usr/bin/python3 find-games.py
